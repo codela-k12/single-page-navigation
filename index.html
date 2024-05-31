@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Codela</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" type="image/jpg" href="favicon.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+   <!--Google fonts. Changing font requires change to style.css also-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Noto+Sans">
+<!--Navigation hamburger icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+
+
+<body>
+<!--First up is our responsive single page navigation. It links menu items to #anchors within the webpage. Javascript <script> at the bottom of the page auto scrolls the page to the selected #anchor point.-->
+  <div class="navbar" id="myNavbar">
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#content">Content</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+<div class="hero-image" id="hero-block">
+  <div class="hero-text">
+    <h1>Single Page Navigation</h1>
+     <h2>Penelope Pitt</h2>
+</div>
+</div>
+
+
+<!--Control background-color class-->
+<section id="about" class="background-black">
+    <h1>About</h1>
+    <div class="flexbox-container">
+    <div class="row">
+<!--We created flex-2item (double column) and flex-3item (triple column classes)-->
+  <div class="column-2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <div class="column-2">
+    <img src="img.jpg" style="width:100%" alt="describe image here">
+     <div class="caption">caption</div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<!--Control background-color class-->
+<section id="portfolio" class="background-white">
+  <h1>Portfolio</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+<!--Here is the flex-3item (triple column classes)-->
+  <div class="flexbox-container">
+    <div class="row">
+    <div class="column-3">
+        <img src="img.jpg" style="width:98%" alt="describe image here">
+     <div class="caption">caption</div>
+      <h3>Project 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <button class="modal-button" href="#myModal1">Learn More</button>
+    </div>
+
+    <div class="column-3">
+        <img src="img.jpg" style="width:98%" alt="describe image here">
+      <div class="caption">caption</div>
+      <h3>Project 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <button class="modal-button" href="#myModal2">Learn More</button>
+    </div>
+
+    <div class="column-3">
+        <img src="img.jpg" style="width:98%" alt="describe image here">
+     <div class="caption">caption</div>
+        
+      <h3>Project 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <button class="modal-button" href="#myModal3">Learn More</button>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+<!--Control background-color class-->
+  <section id="gallery" class="background-black"><h1>Gallery</h1>
+  <div class="flexbox-container">
+    <div class="row">
+  <div class="column-2">
+    <img src="img.jpg" style="width:100%" alt="describe image here">
+     <div class="caption">caption</div>
+      </div>
+  <div class="column-2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    </div>
+      <br>
+      <br>
+    <div class="row">
+    <div class="column-3">
+      <img src="img.jpg" style="width:98%" alt="describe image here">
+     <div class="caption">caption</div>
+    </div>
+
+    <div class="column-3">
+      <img src="img.jpg" style="width:98%" alt="describe image here">
+     <div class="caption">caption</div>
+    </div>
+
+    <div class="column-3">
+      <img src="img.jpg" style="width:98%" alt="describe image here">
+     <div class="caption">caption</div>
+    </div>
+    </div>
+  </div>
+  </section>
+
+<!--Control background-color class-->
+  <section id="content" class="background-white">
+    <h1>Content</h1>
+    <div class="flexbox-container">
+        <div class="row">
+      <div class="column-2">
+        <img src="img.jpg" style="width:100%" alt="describe image here">
+     <div class="caption">caption</div>
+      </div>
+      <div class="column-2">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+  </div>
+  </section>
+
+<br>
+<br>
+
+<div class="logo">
+  <img src="thumb.jpg" style="width:30%" alt="describe image here">
+  <p>generated by <a href="https://codela-k12.github.io/projects/">Codela</a></p>
+    <p><i>code for the English Language Arts classroom.</i></p>
+  </div>
+    
+</body>
+</html>
+
+
+<!--Down here is where you'll keep all of your modal links. Replace these placeholders with relevant content.-->
+
+<!-- Modal 1-->
+<div id="myModal1" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img src="img.jpg" style="width:50%" alt="describe image here">
+      <p style="color:black"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+  </div>
+
+
+<!-- Modal 2-->
+<div id="myModal2" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+        <img src="img.jpg" style="width:50%" alt="describe image here">
+    <p style="color:black"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</div>
+
+<!-- Modal 3-->
+<div id="myModal3" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+       <img src="img.jpg" style="width:50%" alt="describe image here">
+    <p style="color:black"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+</div>
+
+
+
+
+
+<!--Finally, this javascript creates a responsive navbar and opens modal windows.-->
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+
+// Get the button that opens the modal
+var btn = document.querySelectorAll("button.modal-button");
+
+// All page modals
+var modals = document.querySelectorAll('.modal');
+
+// Get the <span> element that closes the modal
+var spans = document.getElementsByClassName("close");
+
+
+
+// When the user clicks the button, open the modal
+for (var i = 0; i < btn.length; i++) {
+ btn[i].onclick = function(e) {
+    e.preventDefault();
+    modal = document.querySelector(e.target.getAttribute("href"));
+    modal.style.display = "block";
+ }
+}
+
+// When the user clicks on <span> (x), close the modal
+for (var i = 0; i < spans.length; i++) {
+ spans[i].onclick = function() {
+    for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
+    }
+ }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+     for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
+     }
+    }
+}
+
+
+
+</script>
+
+
+
+  <!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class CSS properties on style.css.
+
+
+    ***Add Text block***
+
+    (Format textblock using inline styling: text-align: left, center, justify, right. To improve accessibility, always left-align text longer than three lines; Format text: <i>italics</i>; <b>bold</b>; <u>underline</u>; <mark>highlight</mark>; <sup>superscript</sup>; <sub>subscript</sub>; Link Website: <a href="link">LinkName</a>; Line Breaks: <br></br>;
+
+  <div class="text-block" style="text-align: left">
+    <h2>Header</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+
+
+    ***Add Pull Quote***
+
+    (Format text: Italics: <i>italics</i>; Bold: <b>bold</b>. Change font and font size using CSS)
+
+  <div class="pull-quote" style="text-align: center">
+    <h2>Excepteur sint occaecat cupidatat non proident!</h2>
+  </div>
+
+
+
+    ***Bulleted Points or List***
+
+    (Nest within text-block or style using CSS. Change <ul> to <ol> in HTML to switch from unordered list to ordered list.)
+
+  <div>
+    <ul>
+      <li>first</li>
+      <li>second</li>
+      <li>third</li>
+    </ul>
+  </div>
+
+
+
+    ***Add Link that Looks Like a Button***
+
+    (Clearly label link action. For more stylings, find button-box class properties on style.css)
+
+  <div class="button-box">
+    <a href="https://codela-k12.github.io/codela-tools/" class="button">Go to Codela</a>
+  </div>
+
+
+    ***Add Image Frame and Filters***
+
+    (Control frame class and image properties with CSS.)
+
+  <img class="frame" src="codela.jpg" alt="describe the image HERE for accessibility purposes">
+    <div class="caption">
+      <p><i>Add a caption</i></p>
+    </div>
+  
+
+
+
+    ***Add Polaroid***
+
+    (Control image width using CSS.)
+
+  <div class="polaroid">
+    <img src="polaroid.jpg" alt="describe the image HERE for accessibility purposes">
+      <div class="polaroid-caption">
+        <p><i>Add a caption</i></p>
+      </div>
+  </div>
+
+
+
+      ***Add Image Container with Text Box***
+
+      (Control Image Container properties using CSS.)
+
+  <div class="image-container">
+    <img src="image.jpg" alt="describe image here">
+      <div class="image-container-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+
+
+    ***Add Parallax Window***
+
+      (Adjust window height using parallax class on style.css)
+
+  <div class="parallax"></div>
+    <div class="caption">
+      <p><i>Add a caption.</i></p>
+  </div>
+
+
+
+    ***Embed YouTube Video***
+
+  <div class="video">
+    <div class="video-container">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/KVUBbM7pIYw?si=PIkNRIwkV2UqE1Td" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+       <p><i>Add a caption.</i></p>
+  </div>
+
+
+    ***Add Copyright Footer***
+
+  <div class="footer">
+    <p><i>Copyright Your Name, Year.</i></p>
+  </div>
+
+
+
+    ***Need something that's not here? Go to https://www.w3schools.com to find all kinds of resources to facilitate your code learning.***
+
+
