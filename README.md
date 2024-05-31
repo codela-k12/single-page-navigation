@@ -1,4 +1,4 @@
-#Single Page Navigation 
+# Single Page Navigation 
 
 This single page navigation template includes responsive design and cool tools like navigation and modal views...everything you need to get going on your own portfolio or website. 
 
