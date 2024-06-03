@@ -15,7 +15,7 @@ We've provided hidden code comments to help guide you through the process and em
 
 2. Find this project folder in your downloads and move it to a secure place on your local computer. You'll return to this project folder to manage your scripts, images, and other assets. 
 
-3. Download and/or open a code editor. We recommend [Phoenix Code](https://phcode.dev) which runs on a browser or [download](https://phcode.io/#/home) a desktop version. See more information on code editors below.  
+3. Download and/or open a code editor. We recommend [Phoenix Code](https://phcode.dev) which runs on a browser or [download](https://phcode.io/#/home) a desktop version. See more information on code editors below (including video tutorials!)  
 
 4. Use the code editor to open the index.html document. Read through the code comments embedded in the index.html document. Here, you'll find all the information you need to work with code!  
 
@@ -37,18 +37,52 @@ We've provided hidden code comments to help guide you through the process and em
 
  
  
-## Code Editors 
+## Phoenix code editor 
 
 You have a range of code editor options depending on your operating system, but we recommend [Phoenix Code](https://phcode.dev) because it works across all operating systems, it comes with HTML preview already installed, and it's free and open-source.
 
 
-###Phoenix Code (Download or use Online)
-[See Video Tutorial]()
+### Phoenix Code (Download or use Online)
+[See Video Tutorial](https://youtu.be/j8o506PZ1H8)
 
 1. Go to [Phoenix Code](https://phcode.dev). 
 1. Use the online version or [download](https://phcode.io/#/home) a desktop app for Mac, Windows, Linux. 
 1. Adjust text wrapping, select **View>Word Wrap**
-1. Enjoy the live preview.
+1. Enjoy the live preview.<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+
+
+
+## Support for other code editors
+
+### Pulsar (Open-Source for Mac / Windows / Linux)
+[See Video Tutorial](https://youtu.be/dKcJm4V53ig)
+
+1. Download "**[Pulsar](https://pulsar-edit.dev)**" Pulsar comes with "Spell Check" already installed. 
+1. Add HTML Preview 
+	* from the dropdown menu, select **Packages>Open Package Manager**
+	* select **+ Install**
+	* in the search bar type "**Atom-HTML-preview**." 
+	* select the package built by "**HARMSK**." Click "**Install**."
+1. Adjust text wrapping 
+	 -	from the dropdown menu, select **View>Toggle Soft Wrap** (this will force lines of code to conform to your view tab.)
+
+### Visual Studio Code (Mac / Windows /Linux)
+[See Video Tutorial](https://youtu.be/1onqFbSgeQo)
+
+1. Download "**[Visual Studio Code](https://code.visualstudio.com/download)**"
+1. Add HTML Preview 
+	* from the dropdown menu, select **View>Extension.**
+	* In the search bar type "**Live Preview**." Install.
+	* Right click on the index.html tab and select "**show preview**." You should see a live version of your work.
+1. Install Spell Check 
+	* from the dropdown menu, select **View>Extension.** 
+	* In the search bar type "**Code Spell Check**." Install.
+1. Adjust text wrapping on index.html 
+	* from the dropdown menu, select **View>Word Wrap** (this will force lines of code to conform to your viewer tab.)
+
+
+
+
 
 
 ### Pulsar (Open-Source for Mac / Windows / Linux)
